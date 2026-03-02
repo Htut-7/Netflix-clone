@@ -1,0 +1,70 @@
+/* ===== ABOUT PAGE ===== */
+
+.about-page {
+    background-color: #000;
+    color: #fff;
+}
+
+/* HERO */
+.about-hero {
+    min-height: 60vh;
+    padding: 100px 6% 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.9)
+    );
+}
+
+.about-hero h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.about-hero p {
+    max-width: 700px;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color: #b3b3b3;
+}
+
+/* CONTENT */
+.about-content {
+    padding: 80px 6%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+}
+
+/* SECTION */
+.about-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 14px;
+}
+
+.about-section p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #b3b3b3;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about-hero h1 {
+        font-size: 2.6rem;
+    }
+
+    .about-hero p {
+        font-size: 1.1rem;
+    }
+}

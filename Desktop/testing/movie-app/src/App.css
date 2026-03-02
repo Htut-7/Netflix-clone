@@ -1,0 +1,153 @@
+/* Reset a bit */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar container */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 32px;
+  background-color: #111;
+  color: #fff;
+}
+
+/* Logo / title */
+.nav-bar span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e50914; /* movie vibe */
+}
+
+/* Center nav links */
+.nav-link {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+/* NavLink default style */
+.nav-link a,
+.nav-control a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+/* Hover */
+.nav-link a:hover,
+.nav-control a:hover {
+  color: #fff;
+}
+
+/* Active NavLink (React Router) */
+.nav-link a.active,
+.nav-control a.active {
+  color: #e50914;
+  font-weight: 600;
+}
+
+/* Right-side control */
+.nav-control {
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  width: 70px;
+  height: auto;
+  display: flex;
+}
+
+.logo img{
+  width: 100%;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.signin-btn {
+    background-color: #e50914;
+    color: #fff;
+    padding: 7px 16px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.signin-btn:hover {
+    background-color: #f6121d;
+}
+
+/* ===== FOOTER ===== */
+
+.footer {
+    background-color: #000;
+    color: #757575;
+    padding: 70px 6% 40px;
+    font-size: 0.95rem;
+}
+
+.footer-top {
+    margin-bottom: 30px;
+}
+
+.footer-top a {
+    color: #757575;
+    text-decoration: none;
+}
+
+.footer-top a:hover {
+    text-decoration: underline;
+}
+
+/* Links grid */
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px 24px;
+    margin-bottom: 30px;
+}
+
+.footer-links a {
+    color: #757575;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Language selector */
+.footer-lang select {
+    background-color: #000;
+    color: #757575;
+    border: 1px solid #333;
+    padding: 10px 14px;
+    font-size: 0.9rem;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+/* Country */
+.footer-country {
+    font-size: 0.85rem;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 900px) {
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .footer-links {
+        grid-template-columns: 1fr;
+    }
+}

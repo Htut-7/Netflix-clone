@@ -1,0 +1,99 @@
+/* page background */
+.detail-container {
+  min-height: 100vh;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  color: #fff;
+}
+
+/* loading & error text */
+.detail-container p {
+  font-size: 18px;
+  color: #ccc;
+}
+
+/* main card */
+.detail-page {
+  max-width: 900px;
+  width: 100%;
+  background-color: #181818;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* movie image */
+  .detail-page img {
+  width: 100%;
+  height: auto;        /* let image keep its ratio */
+  object-fit: contain; /* show full image */
+  background-color: #000; /* black bars like Netflix */
+  display: block;
+   max-height: 80vh;   /* don't overflow screen */
+  margin: 0 auto;
+}
+
+
+/* content area */
+.detail-page h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 20px;
+  color: #fff;
+}
+
+.detail-page p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 20px 20px;
+  color: #b3b3b3;
+}
+
+/* back button */
+.detail-page a {
+  display: inline-block;
+  margin: 0 20px 25px;
+  padding: 10px 22px;
+  background-color: #e50914;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.detail-page a:hover {
+  background-color: #f40612;
+  transform: translateY(-2px);
+}
+
+/* fade animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .detail-page img {
+    height: 260px;
+  }
+
+  .detail-page h3 {
+    font-size: 22px;
+  }
+
+  .detail-page p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Inception",
+      "genre": "Sci-Fi",
+      "year": 2010,
+      "rating": 8.8,
+      "cover": "https://image.tmdb.org/t/p/w500/edv5CZvWj09upOsy2Y6IwDhK8bt.jpg",
+      "description": "Dom Cobb is a highly skilled thief with the rare ability to enter people's dreams and steal valuable secrets from their subconscious minds. His talent has made him a wanted fugitive and cost him everything he loves. Offered a chance at redemption, Cobb is tasked with performing the impossible: inception — planting an idea into someone’s mind without them realizing it. As the team dives deeper into layered dream worlds, reality begins to blur, time stretches unpredictably, and the mission becomes increasingly dangerous. Cobb must confront his own haunting memories that threaten to sabotage the operation."
+    },
+    {
+      "id": 2,
+      "title": "Interstellar",
+      "genre": "Sci-Fi",
+      "year": 2014,
+      "rating": 8.6,
+      "cover": "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "description": "In a future where Earth is slowly becoming uninhabitable, former NASA pilot Cooper is recruited for a daring mission beyond the stars. Along with a team of scientists, he travels through a mysterious wormhole near Saturn in search of a new home for humanity. As they explore distant planets, time dilation and harsh environments challenge their survival. Meanwhile, Cooper struggles with the emotional cost of leaving his children behind, especially as years pass on Earth in mere hours in space."
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "year": 2008,
+      "rating": 9.0,
+      "cover": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
+      "description": "Batman raises the stakes in his war on crime with the help of Lieutenant Jim Gordon and District Attorney Harvey Dent. Together, they aim to rid Gotham City of organized crime. However, their efforts are challenged by the Joker, a sadistic criminal mastermind who thrives on chaos and psychological manipulation. As Gotham descends into madness, Batman must confront difficult moral choices and question the true cost of being a hero in a city that may not want saving."
+    },
+    {
+      "id": 4,
+      "title": "Avengers: Endgame",
+      "genre": "Action",
+      "year": 2019,
+      "rating": 8.4,
+      "cover": "https://image.tmdb.org/t/p/w500/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+      "description": "After the devastating events caused by Thanos, the universe lies in ruins. Half of all life has vanished, and the remaining Avengers are broken, grieving, and scattered. When a possible solution emerges, the heroes reunite for one final mission that will test their strength, loyalty, and sacrifices. Traveling through time and revisiting pivotal moments from their past, the Avengers face overwhelming odds in a desperate attempt to restore balance and undo the catastrophe that changed everything."
+    },
+    {
+      "id": 5,
+      "title": "Parasite",
+      "genre": "Thriller",
+      "year": 2019,
+      "rating": 8.5,
+      "cover": "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "description": "The Kim family lives in poverty, struggling to survive in a cramped basement apartment. When an opportunity arises to infiltrate the wealthy Park household, each family member carefully secures a role in the home under false pretenses. What begins as a clever scheme gradually spirals into a dark and unpredictable chain of events. As class tensions rise and hidden secrets are revealed, the film exposes the fragile divide between wealth and desperation with shocking consequences."
+    },
+    {
+      "id": 6,
+      "title": "Spider-Man: No Way Home",
+      "genre": "Adventure",
+      "year": 2021,
+      "rating": 8.2,
+      "cover": "https://image.tmdb.org/t/p/w500/uJYYizSuA9Y3DCs0qS4qWvHfZg4.jpg",
+      "description": "After his secret identity is exposed to the world, Peter Parker’s life turns upside down. Desperate to fix the damage, he seeks help from Doctor Strange, but a spell gone wrong fractures the multiverse. Villains from other realities begin to appear, forcing Spider-Man to confront enemies unlike any he has faced before. As the chaos escalates, Peter must learn what it truly means to be Spider-Man, even if it requires making the ultimate sacrifice."
+    },
+    {
+      "id": 7,
+      "title": "The Conjuring",
+      "genre": "Horror",
+      "rating": 7.5,
+      "cover": "https://image.tmdb.org/t/p/w500/wVYREutTvI2tmxr6ujrHT704wGF.jpg",
+      "description": "Based on real-life case files, paranormal investigators Ed and Lorraine Warren are called to assist a family terrorized by a malevolent presence in their remote farmhouse. As disturbing events escalate, the Warrens uncover a dark history tied to the land. The haunting grows increasingly violent, pushing both the family and investigators to their limits. To stop the evil force, the Warrens must confront a terrifying entity that threatens to consume everyone involved."
+    },
+    {
+      "id": 8,
+      "title": "Hereditary",
+      "genre": "Horror",
+      "rating": 7.3,
+      "cover": "https://image.tmdb.org/t/p/w500/lHV8HHlhwNup2VbpiACtlKzaGIQ.jpg",
+      "description": "After the death of their secretive grandmother, the Graham family begins to experience a series of disturbing and unexplainable events. As grief turns into terror, hidden truths about the family’s ancestry emerge. The mother, Annie, becomes obsessed with uncovering what is happening, only to realize that something sinister has been passed down through generations. The film slowly builds an atmosphere of dread, leading to a shocking and unforgettable conclusion."
+    }
+  ]
+}
