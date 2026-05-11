@@ -1,0 +1,170 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#050816;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+.reg-form{
+    width:100%;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.form-container{
+    width:100%;
+    max-width:450px;
+    background:rgba(255,255,255,0.05);
+    border:1px solid rgba(255,255,255,0.08);
+    backdrop-filter:blur(10px);
+    border-radius:25px;
+    padding:40px 35px;
+}
+
+.form-container h2{
+    color:#fff2a8;
+    text-align:center;
+    margin-bottom:35px;
+    font-size:32px;
+}
+
+.form-input{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.form-input label{
+    color:white;
+    font-size:15px;
+    font-weight:500;
+}
+
+.form-input input{
+    width:100%;
+    padding:15px;
+    border:none;
+    outline:none;
+    border-radius:12px;
+    background:rgba(255,255,255,0.08);
+    color:white;
+    font-size:15px;
+}
+
+.form-input input::placeholder{
+    color:#bdbdbd;
+}
+
+.action-container{
+    margin-top:10px;
+}
+
+.action-container a{
+    text-decoration:none;
+    color:#fff2a8;
+    font-size:14px;
+    transition:0.3s;
+}
+
+.action-container a:hover{
+    opacity:0.8;
+}
+
+.form-btn button{
+    width:100%;
+    height:52px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#fff2a8;
+
+    color:black;
+
+    font-size:16px;
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.form-btn button:disabled{
+    opacity:0.7;
+    cursor:not-allowed;
+}
+
+.form-btn button:hover{
+    transform:translateY(-2px);
+}
+
+.form-btn .spinner{
+    width:22px;
+    height:22px;
+
+    border:3px solid rgba(0,0,0,0.2);
+    border-top:3px solid black;
+
+    border-radius:50%;
+
+    animation:spin 0.7s linear infinite;
+}
+
+@keyframes spin{
+
+    0%{
+        transform:rotate(0deg);
+    }
+
+    100%{
+        transform:rotate(360deg);
+    }
+
+}
+
+@media(max-width:768px){
+
+    .form-container{
+        padding:35px 25px;
+    }
+
+    .form-container h2{
+        font-size:28px;
+    }
+
+}
+
+@media(max-width:480px){
+
+    .form-container{
+        padding:30px 20px;
+        border-radius:20px;
+    }
+
+    .form-container h2{
+        font-size:24px;
+    }
+
+    .form-input input{
+        padding:13px;
+        font-size:14px;
+    }
+
+    .form-btn button{
+        padding:13px;
+        font-size:15px;
+    }
+
+}
